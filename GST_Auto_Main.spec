@@ -1,12 +1,15 @@
 # -*- mode: python -*-
 
+import os
+
+path = os.path.abspath(".")
+
 block_cipher = None
 
-
 a = Analysis(['GST_Auto_Main.py'],
-             pathex=['C:\\Users\\Admin\\Desktop\\GST_Auto_1dot5'],
+             pathex=[path],
              binaries=[],
-             datas=[('N.ico', '.')],
+             datas=[('N.ico', '.'), ('db', 'db'), ('chromedriver.exe', '.'), ('GSTAutoLogin.ui', '.')],
              hiddenimports=['PyQt5.sip'],
              hookspath=[],
              runtime_hooks=[],
