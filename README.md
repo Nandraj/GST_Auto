@@ -5,6 +5,10 @@ GST (India) Client Data Access and Login Tool
 
 It helps in accessing client data from Excel sheet of client master data and on press of login button this software opens GST Portal in chrome browser and fill up username and password.
 
+### System requirement
+- Windows OS 7(with service pack 1) or later
+- Google chrome browser
+
 ### How to Use window binary ?
 1. Download binary and excel file from this [link](https://app.box.com/s/d5tpi5vk4tve3e6ehwqtm2llarsck524)
 
